@@ -32,6 +32,7 @@
             this.ClientSize = new System.Drawing.Size(619, 388);
             this.Name = "Server";
             this.Text = "Server";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Server_FormClosing);
             this.ResumeLayout(false);
 
         }
